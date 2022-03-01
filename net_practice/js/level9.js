@@ -1,1 +1,64 @@
-var _0xf434=['Dr1','61300muNWhx','10.0.0.0/27','20,-50','200x240+800+200','[11-126]j.[1-254]k.14.253','192.168.[1-254]h.42','0,-50','boson','192.168.[1-254]i.1','Ir2','[j].[k].19.131','[11-126]e.198.[1-254]f.1','0.0.0.0','163.172.250.1','[j].[k].16.254','200x200+600+900','router','100,190','130,140','router.png','switch','R23','R11','Cr1','190,80','0,0','R21','proton','-50,200','255.255.255.252','Br1','[e].199.[f].1','Ir3','163.172.250.12','R22','192.168.24.12/26','200x220+100+200','7OlaIsO','967286mfKKwB','R1r1','190,10','R13','200x200+500+500','255.255.255.0','507454tkVXzE','/28','0.0.0.0/0','internet','-150,0','reach','232728VjMvTd','gluon','hidden','host.png','200x220+1000+800','[j].[k].17.254','255.255.255.192','100,200','R2r1','internet.png','Ar1','default','255.255.255.128','150x150+200+500','10.0.0.1','327969zWKobd','-80,110','std','switch.png','R12','R1r2','-200,100','ion','false','meson','neutron','/18','[e].198.[f].0/22','Ir1','180,30','200x220+600+1300','927098GzskRv','Internet','84011RZokRF','[11-126]a.[1-254]b.[1-254]c.[1-254]d','true','cation','client','10.0.0.254','255.255.0.0','R1r3','200x220+100+800','10.0.0.0/8'];var _0x542aa0=_0x362a;function _0x362a(_0x3e4e19,_0x52a2a9){return _0x362a=function(_0xf43488,_0x362a71){_0xf43488=_0xf43488-0x1e9;var _0x51b339=_0xf434[_0xf43488];return _0x51b339;},_0x362a(_0x3e4e19,_0x52a2a9);}(function(_0x3ae84f,_0x2a56ca){var _0x30376e=_0x362a;while(!![]){try{var _0x37c538=-parseInt(_0x30376e(0x1fe))+-parseInt(_0x30376e(0x22b))*-parseInt(_0x30376e(0x1fd))+parseInt(_0x30376e(0x236))+-parseInt(_0x30376e(0x204))+parseInt(_0x30376e(0x229))+parseInt(_0x30376e(0x219))+parseInt(_0x30376e(0x20a));if(_0x37c538===_0x2a56ca)break;else _0x3ae84f['push'](_0x3ae84f['shift']());}catch(_0x38e68c){_0x3ae84f['push'](_0x3ae84f['shift']());}}}(_0xf434,0xa1ba0));var level=0x9,hosts=[{'id':'A','type':_0x542aa0(0x22f),'name':_0x542aa0(0x222),'geometry':_0x542aa0(0x233),'img':_0x542aa0(0x20d),'labelpos':_0x542aa0(0x1f4)},{'id':'B','type':_0x542aa0(0x22f),'name':_0x542aa0(0x220),'geometry':_0x542aa0(0x1fc),'img':'host.png','labelpos':_0x542aa0(0x227)},{'id':'C','type':_0x542aa0(0x22f),'name':_0x542aa0(0x22e),'geometry':_0x542aa0(0x20e),'img':_0x542aa0(0x20d),'labelpos':_0x542aa0(0x1e9)},{'id':'D','type':_0x542aa0(0x22f),'name':_0x542aa0(0x20b),'geometry':_0x542aa0(0x228),'img':_0x542aa0(0x20d),'labelpos':'180,80'},{'id':'R1','type':'router','name':_0x542aa0(0x1f3),'geometry':_0x542aa0(0x202),'img':'router.png','labelpos':'-150,150'},{'id':'R2','type':_0x542aa0(0x246),'name':_0x542aa0(0x23d),'geometry':_0x542aa0(0x245),'img':_0x542aa0(0x1eb),'labelpos':_0x542aa0(0x21f)},{'id':'I','type':_0x542aa0(0x207),'name':_0x542aa0(0x22a),'geometry':_0x542aa0(0x239),'img':_0x542aa0(0x213),'labelpos':_0x542aa0(0x211)},{'id':'S','type':_0x542aa0(0x1ec),'name':_0x542aa0(0x223),'geometry':_0x542aa0(0x217),'img':_0x542aa0(0x21c),'labelpos':_0x542aa0(0x21a)}],routes=[{'hid':'A','rid':_0x542aa0(0x214),'route':_0x542aa0(0x206),'gate':_0x542aa0(0x241),'route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x22d)},{'hid':'B','rid':_0x542aa0(0x1f6),'route':'8.8.8.8/16','gate':_0x542aa0(0x1f7),'route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x22d)},{'hid':'C','rid':_0x542aa0(0x1ef),'route':_0x542aa0(0x206),'gate':_0x542aa0(0x230),'route_edit':'false','gate_edit':_0x542aa0(0x22d)},{'hid':'D','rid':_0x542aa0(0x235),'route':'10.0.0.0/8','gate':_0x542aa0(0x22c),'route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x221)},{'hid':'R1','rid':_0x542aa0(0x1ff),'route':_0x542aa0(0x234),'gate':_0x542aa0(0x23a),'route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x22d)},{'hid':'R1','rid':_0x542aa0(0x21e),'route':_0x542aa0(0x1fb),'gate':'[j].[k].15.253','route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x22d)},{'hid':'R1','rid':_0x542aa0(0x232),'route':_0x542aa0(0x206),'gate':'163.172.250.1','route_edit':'false','gate_edit':'false'},{'hid':'R2','rid':_0x542aa0(0x212),'route':'0.0.0.0/0','gate':_0x542aa0(0x244),'route_edit':_0x542aa0(0x221),'gate_edit':'true'},{'hid':'I','rid':_0x542aa0(0x226),'route':_0x542aa0(0x225),'gate':'163.172.250.12','route_edit':_0x542aa0(0x22d),'gate_edit':'false'},{'hid':'I','rid':_0x542aa0(0x23f),'route':_0x542aa0(0x237),'gate':_0x542aa0(0x1f9),'route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x221)},{'hid':'I','rid':_0x542aa0(0x1f8),'route':_0x542aa0(0x215),'gate':'163.172.250.12','route_edit':_0x542aa0(0x22d),'gate_edit':_0x542aa0(0x221)}],ifs=[{'if':'A1','hid':'A','ip':'192.168.[1-254]g.2','mask':_0x542aa0(0x203),'ip_edit':'true','mask_edit':_0x542aa0(0x22d),'type':_0x542aa0(0x21b),'pos':_0x542aa0(0x23c)},{'if':'B1','hid':'B','ip':_0x542aa0(0x23b),'mask':_0x542aa0(0x231),'ip_edit':_0x542aa0(0x22d),'mask_edit':_0x542aa0(0x22d),'type':_0x542aa0(0x21b),'pos':_0x542aa0(0x211)},{'if':'C1','hid':'C','ip':_0x542aa0(0x218),'mask':_0x542aa0(0x203),'ip_edit':_0x542aa0(0x22d),'mask_edit':_0x542aa0(0x22d),'type':_0x542aa0(0x21b),'pos':_0x542aa0(0x238)},{'if':'D1','hid':'D','ip':_0x542aa0(0x240),'mask':_0x542aa0(0x210),'ip_edit':_0x542aa0(0x22d),'mask_edit':'true','type':_0x542aa0(0x21b),'pos':_0x542aa0(0x23c)},{'if':'R11','hid':'R1','ip':_0x542aa0(0x23e),'mask':_0x542aa0(0x216),'ip_edit':_0x542aa0(0x22d),'mask_edit':_0x542aa0(0x221),'type':_0x542aa0(0x21b),'pos':_0x542aa0(0x208)},{'if':_0x542aa0(0x21d),'hid':'R1','ip':_0x542aa0(0x1f9),'mask':'255.255.255.240','ip_edit':_0x542aa0(0x221),'mask_edit':_0x542aa0(0x221),'type':'std','pos':_0x542aa0(0x200)},{'if':_0x542aa0(0x201),'hid':'R1','ip':_0x542aa0(0x20f),'mask':_0x542aa0(0x203),'ip_edit':_0x542aa0(0x22d),'mask_edit':_0x542aa0(0x22d),'type':_0x542aa0(0x21b),'pos':_0x542aa0(0x1ea)},{'if':_0x542aa0(0x1f2),'hid':'R2','ip':'[j].[k].18.253','mask':_0x542aa0(0x1f5),'ip_edit':_0x542aa0(0x22d),'mask_edit':_0x542aa0(0x221),'type':'std','pos':_0x542aa0(0x23c)},{'if':_0x542aa0(0x1fa),'hid':'R2','ip':_0x542aa0(0x230),'mask':_0x542aa0(0x203),'ip_edit':_0x542aa0(0x22d),'mask_edit':_0x542aa0(0x22d),'type':_0x542aa0(0x21b),'pos':_0x542aa0(0x1f0)},{'if':'R23','hid':'R2','ip':'8.8.8.8','mask':_0x542aa0(0x224),'ip_edit':_0x542aa0(0x22d),'mask_edit':'false','type':'std','pos':'30,180'},{'if':'S1','hid':'S','ip':_0x542aa0(0x242),'mask':'/32','ip_edit':_0x542aa0(0x221),'mask_edit':_0x542aa0(0x221),'pos':_0x542aa0(0x1f1),'type':_0x542aa0(0x20c)},{'if':'I1','hid':'I','ip':_0x542aa0(0x243),'mask':_0x542aa0(0x205),'ip_edit':_0x542aa0(0x221),'mask_edit':'false','pos':_0x542aa0(0x1f1),'type':_0x542aa0(0x20c)}],links=[{'if1':'I1','if2':_0x542aa0(0x21d)},{'if1':_0x542aa0(0x1ee),'if2':'S1'},{'if1':'S1','if2':'A1'},{'if1':'S1','if2':'B1'},{'if1':'R13','if2':_0x542aa0(0x1f2)},{'if1':_0x542aa0(0x1fa),'if2':'C1'},{'if1':_0x542aa0(0x1ed),'if2':'D1'}],goals=[{'id':'1','type':_0x542aa0(0x209),'id1':'A','id2':'B'},{'id':'2','type':_0x542aa0(0x209),'id1':'C','id2':'D'},{'id':'3','type':_0x542aa0(0x209),'id1':'A','id2':'I'},{'id':'4','type':_0x542aa0(0x209),'id1':'A','id2':'D'},{'id':'5','type':_0x542aa0(0x209),'id1':'B','id2':'C'},{'id':'6','type':_0x542aa0(0x209),'id1':'C','id2':'I'}];
+
+var level = 9;
+
+var hosts = [
+    {'id':'A', 'type':'client', 'name':'meson', 'geometry':'200x220+100+800', 'img':'host.png', 'labelpos':'-50,200'},
+    {'id':'B', 'type':'client', 'name':'ion', 'geometry':'200x220+100+200', 'img':'host.png', 'labelpos':'180,30'},
+    {'id':'C', 'type':'client', 'name':'cation', 'geometry':'200x220+1000+800', 'img':'host.png', 'labelpos':'100,190'},
+    {'id':'D', 'type':'client', 'name':'gluon', 'geometry':'200x220+600+1300', 'img':'host.png', 'labelpos':'180,80'},
+    {'id':'R1', 'type':'router', 'name':'proton', 'geometry':'200x200+500+500', 'img':'router.png', 'labelpos':'-150,150'},
+    {'id':'R2', 'type':'router', 'name':'boson', 'geometry':'200x200+600+900', 'img':'router.png', 'labelpos':'-200,100'},
+    {'id':'I', 'type':'internet', 'name':'Internet', 'geometry':'200x240+800+200', 'img':'internet.png', 'labelpos':'100,200'},
+    {'id':'S', 'type':'switch', 'name':'neutron', 'geometry':'150x150+200+500', 'img':'switch.png', 'labelpos':'-80,110'}
+];
+
+// routes are processed in order, first match only is used => default must be last - KEEP routes before interfaces for random reference
+var routes = [
+    {'hid':'A', 'rid':'Ar1', 'route':'0.0.0.0/0', 'gate':'[11-126]e.198.[1-254]f.1', 'route_edit':'true', 'gate_edit':'true'},
+    {'hid':'B', 'rid':'Br1', 'route':'8.8.8.8/16', 'gate':'[e].199.[f].1', 'route_edit':'true', 'gate_edit':'true'},
+    {'hid':'C', 'rid':'Cr1', 'route':'0.0.0.0/0', 'gate':'10.0.0.254', 'route_edit':'false', 'gate_edit':'true'},
+    {'hid':'D', 'rid':'Dr1', 'route':'10.0.0.0/8', 'gate':'[11-126]a.[1-254]b.[1-254]c.[1-254]d', 'route_edit':'true', 'gate_edit':'false'},
+    {'hid':'R1', 'rid':'R1r1', 'route':'10.0.0.0/8', 'gate':'[11-126]j.[1-254]k.14.253', 'route_edit':'true', 'gate_edit':'true'},
+    {'hid':'R1', 'rid':'R1r2', 'route':'192.168.24.12/26', 'gate':'[j].[k].15.253', 'route_edit':'true', 'gate_edit':'true'},
+    {'hid':'R1', 'rid':'R1r3', 'route':'0.0.0.0/0', 'gate':'163.172.250.1', 'route_edit':'false', 'gate_edit':'false'},
+    {'hid':'R2', 'rid':'R2r1', 'route':'0.0.0.0/0', 'gate':'[j].[k].16.254', 'route_edit':'false', 'gate_edit':'true'},
+    {'hid':'I', 'rid':'Ir1', 'route':'[e].198.[f].0/22', 'gate':'163.172.250.12', 'route_edit':'true', 'gate_edit':'false'},
+    {'hid':'I', 'rid':'Ir2', 'route':'10.0.0.0/27', 'gate':'163.172.250.12', 'route_edit':'true', 'gate_edit':'false'},
+    {'hid':'I', 'rid':'Ir3', 'route':'default', 'gate':'163.172.250.12', 'route_edit':'true', 'gate_edit':'false'}
+];
+
+
+var ifs = [
+    {'if':'A1', 'hid':'A', 'ip':'192.168.[1-254]g.2', 'mask':'255.255.255.0', 'ip_edit':'true', 'mask_edit':'true', 'type':'std', 'pos':'0,-50'},
+    {'if':'B1', 'hid':'B', 'ip':'192.168.[1-254]h.42', 'mask':'255.255.0.0', 'ip_edit':'true', 'mask_edit':'true', 'type':'std', 'pos':'100,200'},
+    {'if':'C1', 'hid':'C', 'ip':'10.0.0.1', 'mask':'255.255.255.0', 'ip_edit':'true', 'mask_edit':'true', 'type':'std', 'pos':'20,-50'},
+    {'if':'D1', 'hid':'D', 'ip':'[j].[k].19.131', 'mask':'255.255.255.192', 'ip_edit':'true', 'mask_edit':'true', 'type':'std', 'pos':'0,-50'},
+    {'if':'R11', 'hid':'R1', 'ip':'192.168.[1-254]i.1', 'mask':'255.255.255.128', 'ip_edit':'true', 'mask_edit':'false', 'type':'std', 'pos':'-150,0'},
+    {'if':'R12', 'hid':'R1', 'ip':'163.172.250.12', 'mask':'255.255.255.240', 'ip_edit':'false', 'mask_edit':'false', 'type':'std', 'pos':'190,10'},
+    {'if':'R13', 'hid':'R1', 'ip':'[j].[k].17.254', 'mask':'255.255.255.0', 'ip_edit':'true', 'mask_edit':'true', 'type':'std', 'pos':'130,140'},
+    {'if':'R21', 'hid':'R2', 'ip':'[j].[k].18.253', 'mask':'255.255.255.252', 'ip_edit':'true', 'mask_edit':'false', 'type':'std', 'pos':'0,-50'},
+    {'if':'R22', 'hid':'R2', 'ip':'10.0.0.254', 'mask':'255.255.255.0', 'ip_edit':'true', 'mask_edit':'true', 'type':'std', 'pos':'190,80'},
+    {'if':'R23', 'hid':'R2', 'ip':'8.8.8.8', 'mask':'/18', 'ip_edit':'true', 'mask_edit':'false', 'type':'std', 'pos':'30,180'},
+    {'if':'S1', 'hid':'S', 'ip':'0.0.0.0', 'mask':'/32', 'ip_edit':'false', 'mask_edit':'false', 'pos':'0,0', 'type':'hidden'},
+    {'if':'I1', 'hid':'I', 'ip':'163.172.250.1', 'mask':'/28', 'ip_edit':'false', 'mask_edit':'false', 'pos':'0,0', 'type':'hidden'}
+];
+
+
+var links = [
+    {'if1':'I1', 'if2':'R12'},
+    {'if1':'R11', 'if2':'S1'},
+    {'if1':'S1', 'if2':'A1'},
+    {'if1':'S1', 'if2':'B1'},
+    {'if1':'R13', 'if2':'R21'},
+    {'if1':'R22', 'if2':'C1'},
+    {'if1':'R23', 'if2':'D1'}
+];
+
+var goals = [
+    {'id':'1', 'type':'reach', 'id1':'A', 'id2':'B'},
+    {'id':'2', 'type':'reach', 'id1':'C', 'id2':'D'},
+    {'id':'3', 'type':'reach', 'id1':'A', 'id2':'I'},
+    {'id':'4', 'type':'reach', 'id1':'A', 'id2':'D'},
+    {'id':'5', 'type':'reach', 'id1':'B', 'id2':'C'},
+    {'id':'6', 'type':'reach', 'id1':'C', 'id2':'I'}
+];

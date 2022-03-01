@@ -1,1 +1,347 @@
-var _0x25b4=[',\x20on\x20field\x20','width','<input\x20type=button\x20value=\x22Check\x20again\x22\x20onclick=\x22all_goals();\x22>\x20<input\x20type=button\x20value=\x22Get\x20my\x20config\x22\x20onclick=\x22dl_config();\x22>','.json','5156EDTkST','charCodeAt','\x20********\x0a','Interface\x20','\x20:\x20</h2>\x0a','297825qLpyNx','>\x20=&gt;\x20<input\x20size=15\x20type=text\x20id=gate_','left','itf_div','getItem','setAttribute','length','<br\x20/>','124PJkHwj','pos','\x20<input\x20type=button\x20value=\x27Next\x27\x20onclick=\x27window.location=next_eval();\x27>','</i>\x20-\x20Status\x20:\x20','name','url(img/','true','28563jAoXkp','className','type','goals\x20','**\x0a','round','hosts\x20id\x20','height','pos\x20parsing','Fatal\x20error\x20in\x20','612023yCuAVF','goals_id','disabled','route','227353CZBXAC','end.html','698478yamqqS','route_edit','ip_','id2','gate_edit','stringify','text','top','root_id','goals','17Prmanu','push','link_','host_div','mask','position','*******\x20Goal\x20ID\x20','\x20<input\x20type=button\x20value=\x27Next\x20level\x27\x20onclick=\x27window.location=\x22level','id1','forEach','status','removeChild','none','routes','body','display','</i>\x20need\x20to\x20communicate\x20with\x20<i>','download','getElementById','</id></td></tr>','mask\x20random\x20syntax','innerHTML','div','if2','black','<input\x20size=15\x20type=text\x20id=route_','ip_edit','><br\x20/>Mask\x20:\x20<input\x20size=15\x20type=text\x20id=mask_','if1','<br\x20/>\x0a','g_my_eval','g_my_login','value','15uQEdMQ','labelpos','createElementNS','gate\x20random\x20syntax','<br\x20/>IP\x20:\x20<input\x20size=15\x20type=text\x20id=ip_','appendChild','parse','hid','geometry','split','img','gate','1KLEBSY','href','mask_edit','ifs','createElement','\x20:\x20','reach','<table><tr><td>','exec','.html','**\x20evaluation\x20mode\x20round\x20','ifs\x20','random','backgroundImage','line','links','absolute','\x20value=\x22','hosts','rid','route\x20id\x20','labelpos\x20parsing','<tr><td>','<i>','http://www.w3.org/2000/svg','replace','route_',':\x20<i>','default','logs_id','Logs\x20will\x20be\x20displayed\x20here','12151JECWcg','\x20<input\x20type=button\x20value=\x27Complete\x20!\x27\x20onclick=\x27window.location=\x22end.html\x22;\x27>','data:text/plain;charset=utf-8,','style','includes','click','stroke'];(function(_0x4a7958,_0x169a8f){var _0x4342ec=_0x4812;while(!![]){try{var _0x120df5=-parseInt(_0x4342ec(0x1a8))+-parseInt(_0x4342ec(0x18b))+-parseInt(_0x4342ec(0x1d5))*-parseInt(_0x4342ec(0x19a))+parseInt(_0x4342ec(0x186))*-parseInt(_0x4342ec(0x193))+parseInt(_0x4342ec(0x15c))*parseInt(_0x4342ec(0x1a4))+-parseInt(_0x4342ec(0x17b))*parseInt(_0x4342ec(0x1b4))+parseInt(_0x4342ec(0x1aa));if(_0x120df5===_0x169a8f)break;else _0x4a7958['push'](_0x4a7958['shift']());}catch(_0x295383){_0x4a7958['push'](_0x4a7958['shift']());}}}(_0x25b4,0x59cf1));var g_sim_logs='',g_my_login=0x0,g_rand_prev,g_rand_repl=[],g_eval_lvls;function my_console_log(_0x2117cc){}function _0x4812(_0x3ce1fa,_0x5125ac){return _0x4812=function(_0x25b45b,_0x481204){_0x25b45b=_0x25b45b-0x15a;var _0x44844d=_0x25b4[_0x25b45b];return _0x44844d;},_0x4812(_0x3ce1fa,_0x5125ac);}function hash_login(_0x4a8230){var _0x19535d=_0x4812,_0x2dc9d1=0x0;for(var _0x500ae5=0x0;_0x500ae5<_0x4a8230[_0x19535d(0x191)];_0x500ae5++){if(_0x500ae5%0x2==0x0)_0x2dc9d1+=0x3cd*(_0x4a8230[_0x19535d(0x187)](_0x500ae5)+_0x500ae5);else _0x2dc9d1+=0x5*_0x4a8230['charCodeAt'](_0x500ae5)*_0x500ae5;}return _0x2dc9d1;}function err(_0x28c382,_0x1fb814){var _0x24c5bf=_0x4812;my_console_log(_0x24c5bf(0x1a3)+_0x28c382+_0x24c5bf(0x182)+_0x1fb814);throw'';}function my_random(_0x52d302,_0x2cf47a){var _0x33dc51=_0x4812;if(g_my_login=='')return Math['round'](parseInt(_0x52d302)+(parseInt(_0x2cf47a)-parseInt(_0x52d302))*Math['random']());var _0x11a3eb=g_rand_prev;return _0x11a3eb^=_0x11a3eb<<0xd,_0x11a3eb^=_0x11a3eb>>0x11,_0x11a3eb^=_0x11a3eb<<0x5,g_rand_prev=_0x11a3eb,_0x11a3eb=(_0x11a3eb&0x7fffffff)%parseInt(_0x2cf47a)-parseInt(_0x52d302)+0x1,Math[_0x33dc51(0x19f)](parseInt(_0x52d302)+_0x11a3eb);}function random_repl(_0x130848){var _0x5f4e2e=_0x4812,_0x51fa41=/\[(\d+)-(\d+)\]([a-z])/g,_0x27279f,_0x5daf01=_0x130848;while(_0x27279f=_0x51fa41[_0x5f4e2e(0x164)](_0x130848)){my_console_log(_0x27279f),g_rand_repl[_0x27279f[0x3]]=my_random(_0x27279f[0x1],_0x27279f[0x2]),_0x5daf01=_0x5daf01[_0x5f4e2e(0x175)](_0x27279f[0x0],''+g_rand_repl[_0x27279f[0x3]]),my_console_log(_0x5daf01);}_0x51fa41=/\[([a-z])\]/g;while(_0x27279f=_0x51fa41[_0x5f4e2e(0x164)](_0x130848)){my_console_log(_0x27279f);if(g_rand_repl[_0x27279f[0x1]]!=null)_0x5daf01=_0x5daf01[_0x5f4e2e(0x175)](_0x27279f[0x0],''+g_rand_repl[_0x27279f[0x1]]),my_console_log(_0x5daf01);else return null;}if(_0x5daf01==_0x5f4e2e(0x178))return _0x5daf01;_0x51fa41=/[^\d\.\/]/g;if(_0x51fa41[_0x5f4e2e(0x164)](_0x5daf01))return null;return _0x5daf01;}function show_host(_0x174e78,_0x2cc2d9){var _0x2f7fb2=_0x4812;if(!_0x2cc2d9['id'])err(_0x2f7fb2(0x16e),'id');if(!_0x2cc2d9['type'])err(_0x2f7fb2(0x1a0)+_0x2cc2d9['id'],_0x2f7fb2(0x19c));if(!_0x2cc2d9['name'])err('hosts\x20id\x20'+_0x2cc2d9['id'],'name');if(!_0x2cc2d9[_0x2f7fb2(0x1dd)])err(_0x2f7fb2(0x1a0)+_0x2cc2d9['id'],'geometry');if(!_0x2cc2d9[_0x2f7fb2(0x15a)])err(_0x2f7fb2(0x1a0)+_0x2cc2d9['id'],_0x2f7fb2(0x15a));var _0x3d75cf=_0x2cc2d9[_0x2f7fb2(0x1dd)][_0x2f7fb2(0x1de)](/[^0-9]+/);if(_0x3d75cf[_0x2f7fb2(0x191)]!=0x4)err(_0x2f7fb2(0x1a0)+_0x2cc2d9['id'],'geometry\x20parsing');_0x2cc2d9['w']=parseInt(_0x3d75cf[0x0]),_0x2cc2d9['h']=parseInt(_0x3d75cf[0x1]),_0x2cc2d9['x']=parseInt(_0x3d75cf[0x2]),_0x2cc2d9['y']=parseInt(_0x3d75cf[0x3]);var _0x459ae6=document['createElement'](_0x2f7fb2(0x1ca));_0x459ae6['className']=_0x2f7fb2(0x1b7),_0x459ae6['style'][_0x2f7fb2(0x1b9)]='absolute',_0x459ae6[_0x2f7fb2(0x17e)][_0x2f7fb2(0x183)]=_0x2cc2d9['w']+'px',_0x459ae6['style'][_0x2f7fb2(0x1a1)]=_0x2cc2d9['h']+'px',_0x459ae6[_0x2f7fb2(0x17e)][_0x2f7fb2(0x1b1)]=_0x2cc2d9['y']+'px',_0x459ae6[_0x2f7fb2(0x17e)][_0x2f7fb2(0x18d)]=_0x2cc2d9['x']+'px',_0x459ae6[_0x2f7fb2(0x17e)][_0x2f7fb2(0x169)]=_0x2f7fb2(0x198)+_0x2cc2d9[_0x2f7fb2(0x15a)]+')',_0x174e78[_0x2f7fb2(0x1da)](_0x459ae6);var _0x3d75cf=_0x2cc2d9[_0x2f7fb2(0x1d6)][_0x2f7fb2(0x1de)](',');if(_0x3d75cf[_0x2f7fb2(0x191)]!=0x2)err('host\x20id\x20'+_0x2cc2d9['id'],_0x2f7fb2(0x171));_0x2cc2d9['lx']=parseInt(_0x3d75cf[0x0]),_0x2cc2d9['ly']=parseInt(_0x3d75cf[0x1]);var _0x459ae6=document[_0x2f7fb2(0x160)](_0x2f7fb2(0x1ca));_0x459ae6[_0x2f7fb2(0x19b)]='host_info_div',_0x459ae6[_0x2f7fb2(0x17e)]['position']=_0x2f7fb2(0x16c),_0x459ae6[_0x2f7fb2(0x17e)][_0x2f7fb2(0x1b1)]=_0x2cc2d9['y']+_0x2cc2d9['ly']+'px',_0x459ae6[_0x2f7fb2(0x17e)]['left']=_0x2cc2d9['x']+_0x2cc2d9['lx']+'px';var _0x3f2fb1=_0x2f7fb2(0x163)+_0x2cc2d9[_0x2f7fb2(0x19c)]+'\x20'+_0x2cc2d9['id']+_0x2f7fb2(0x177)+_0x2cc2d9[_0x2f7fb2(0x197)]+_0x2f7fb2(0x1c7),_0x4d4687='';routes['forEach'](_0x1c5fc7=>{var _0x1a855d=_0x2f7fb2;_0x2cc2d9['id']==_0x1c5fc7['hid']&&(_0x4d4687+=_0x1a855d(0x172)+get_route_info(_0x1c5fc7)+'</td></tr>\x0a',_0x1c5fc7['h']=_0x2cc2d9);});if(_0x4d4687!='')_0x3f2fb1+='<tr><td>Routes\x20:</td></tr>\x0a'+_0x4d4687;_0x3f2fb1+='</table>',_0x459ae6[_0x2f7fb2(0x1c9)]=_0x3f2fb1,_0x174e78[_0x2f7fb2(0x1da)](_0x459ae6);}function get_route_info(_0x2f6d9e){var _0x37e941=_0x4812;if(!_0x2f6d9e[_0x37e941(0x16f)])err(_0x37e941(0x1a7),_0x37e941(0x16f));if(!_0x2f6d9e['hid'])err('route\x20id\x20'+_0x2f6d9e[_0x37e941(0x16f)],_0x37e941(0x1dc));if(!_0x2f6d9e[_0x37e941(0x1a7)])err(_0x37e941(0x170)+_0x2f6d9e[_0x37e941(0x16f)],_0x37e941(0x1a7));if(!_0x2f6d9e[_0x37e941(0x1ab)])err(_0x37e941(0x170)+_0x2f6d9e[_0x37e941(0x16f)],_0x37e941(0x1ab));if(!_0x2f6d9e['gate'])err(_0x37e941(0x170)+_0x2f6d9e[_0x37e941(0x16f)],'gate');if(!_0x2f6d9e[_0x37e941(0x1ae)])err(_0x37e941(0x170)+_0x2f6d9e[_0x37e941(0x16f)],'gate_edit');if((_0x2f6d9e[_0x37e941(0x1a7)]=random_repl(_0x2f6d9e[_0x37e941(0x1a7)]))==null)err(_0x37e941(0x170)+_0x2f6d9e[_0x37e941(0x16f)],'route\x20ip\x20random\x20syntax');if((_0x2f6d9e[_0x37e941(0x15b)]=random_repl(_0x2f6d9e[_0x37e941(0x15b)]))==null)err('route\x20id\x20'+_0x2f6d9e[_0x37e941(0x16f)],_0x37e941(0x1d8));if(_0x2f6d9e[_0x37e941(0x1ab)]==_0x37e941(0x199))route_active='';else route_active=_0x37e941(0x1a6);if(_0x2f6d9e[_0x37e941(0x1ae)]==_0x37e941(0x199))gate_active='';else gate_active=_0x37e941(0x1a6);var _0x67c673=_0x37e941(0x1cd)+_0x2f6d9e[_0x37e941(0x16f)]+_0x37e941(0x16d)+_0x2f6d9e[_0x37e941(0x1a7)]+'\x22\x20'+route_active+_0x37e941(0x18c)+_0x2f6d9e[_0x37e941(0x16f)]+_0x37e941(0x16d)+_0x2f6d9e['gate']+'\x22\x20'+gate_active+'>';return _0x67c673;}function show_ifs(_0x250373,_0x1ff98a){var _0x1eb639=_0x4812;if(!_0x1ff98a['if'])err(_0x1eb639(0x15f),'if');if(!_0x1ff98a[_0x1eb639(0x1dc)])err(_0x1eb639(0x167)+_0x1ff98a['if'],'hid');if(!_0x1ff98a['ip'])err(_0x1eb639(0x167)+_0x1ff98a['if'],'ip');if(!_0x1ff98a['mask'])err(_0x1eb639(0x167)+_0x1ff98a['if'],_0x1eb639(0x1b8));if(!_0x1ff98a['ip_edit'])err('ifs\x20'+_0x1ff98a['if'],_0x1eb639(0x1ce));if(!_0x1ff98a[_0x1eb639(0x15e)])err(_0x1eb639(0x167)+_0x1ff98a['if'],'mask_edit');if(!_0x1ff98a[_0x1eb639(0x19c)])err(_0x1eb639(0x167)+_0x1ff98a['if'],'type');if(!_0x1ff98a[_0x1eb639(0x194)])err(_0x1eb639(0x167)+_0x1ff98a['if'],_0x1eb639(0x194));if((_0x1ff98a['ip']=random_repl(_0x1ff98a['ip']))==null)err(_0x1eb639(0x167)+_0x1ff98a['if'],'ip\x20random\x20syntax');if((_0x1ff98a[_0x1eb639(0x1b8)]=random_repl(_0x1ff98a[_0x1eb639(0x1b8)]))==null)err(_0x1eb639(0x167)+_0x1ff98a['if'],_0x1eb639(0x1c8));hosts['forEach'](_0x30c5ca=>{var _0x420126=_0x1eb639;if(_0x1ff98a[_0x420126(0x1dc)]==_0x30c5ca['id'])_0x1ff98a['h']=_0x30c5ca;});var _0x4cd9cf=_0x1ff98a[_0x1eb639(0x194)][_0x1eb639(0x1de)](',');if(_0x4cd9cf['length']!=0x2)err('ifs\x20id\x20'+_0x1ff98a['if'],_0x1eb639(0x1a2));_0x1ff98a['dx']=parseInt(_0x4cd9cf[0x0]),_0x1ff98a['dy']=parseInt(_0x4cd9cf[0x1]);if(_0x1ff98a['type']=='std'){var _0x7596cd=document[_0x1eb639(0x160)]('div');_0x7596cd[_0x1eb639(0x19b)]=_0x1eb639(0x18e),_0x7596cd[_0x1eb639(0x17e)]['position']='absolute',_0x7596cd['style'][_0x1eb639(0x1b1)]=_0x1ff98a['h']['y']+_0x1ff98a['dy']+'px',_0x7596cd[_0x1eb639(0x17e)]['left']=_0x1ff98a['h']['x']+_0x1ff98a['dx']+'px';if(_0x1ff98a['ip_edit']==_0x1eb639(0x199))ip_active='';else ip_active=_0x1eb639(0x1a6);if(_0x1ff98a[_0x1eb639(0x15e)]==_0x1eb639(0x199))mask_active='';else mask_active='disabled';_0x7596cd[_0x1eb639(0x1c9)]=_0x1eb639(0x189)+_0x1ff98a['if']+_0x1eb639(0x1d9)+_0x1ff98a['if']+'\x20value=\x22'+_0x1ff98a['ip']+'\x22\x20'+ip_active+_0x1eb639(0x1cf)+_0x1ff98a['if']+_0x1eb639(0x16d)+_0x1ff98a[_0x1eb639(0x1b8)]+'\x22\x20'+mask_active+'>',_0x250373[_0x1eb639(0x1da)](_0x7596cd);}}function draw_links(_0x420ffb,_0x59cfdb){var _0x5d12cd=_0x4812;if(!_0x59cfdb[_0x5d12cd(0x1d0)]||!_0x59cfdb['if2'])err(_0x5d12cd(0x16b),'id');ifs[_0x5d12cd(0x1bd)](_0x298b8d=>{var _0xb1f236=_0x5d12cd;if(_0x298b8d['if']==_0x59cfdb[_0xb1f236(0x1d0)])_0x59cfdb['e1']=_0x298b8d;}),ifs['forEach'](_0x100d34=>{var _0x5e5e78=_0x5d12cd;if(_0x100d34['if']==_0x59cfdb[_0x5e5e78(0x1cb)])_0x59cfdb['e2']=_0x100d34;}),hosts['forEach'](_0x566fc3=>{var _0x23287f=_0x5d12cd;if(_0x566fc3['id']==_0x59cfdb['e1'][_0x23287f(0x1dc)])_0x59cfdb['h1']=_0x566fc3;}),hosts['forEach'](_0x4f5505=>{if(_0x4f5505['id']==_0x59cfdb['e2']['hid'])_0x59cfdb['h2']=_0x4f5505;});var _0x44b11c=document[_0x5d12cd(0x1d7)](_0x5d12cd(0x174),_0x5d12cd(0x16a));_0x44b11c[_0x5d12cd(0x190)]('id',_0x5d12cd(0x1b6)+_0x59cfdb[_0x5d12cd(0x1d0)]+'_'+_0x59cfdb[_0x5d12cd(0x1cb)]),_0x44b11c['id']=_0x5d12cd(0x1b6)+_0x59cfdb[_0x5d12cd(0x1d0)]+'_'+_0x59cfdb['if2'],_0x44b11c[_0x5d12cd(0x190)]('x1',''+(parseInt(_0x59cfdb['h1']['x'])+parseInt(_0x59cfdb['h1']['w'])/0x2)),_0x44b11c[_0x5d12cd(0x190)]('y1',''+(parseInt(_0x59cfdb['h1']['y'])+parseInt(_0x59cfdb['h1']['h'])/0x2)),_0x44b11c[_0x5d12cd(0x190)]('x2',''+(parseInt(_0x59cfdb['h2']['x'])+parseInt(_0x59cfdb['h2']['w'])/0x2)),_0x44b11c['setAttribute']('y2',''+(parseInt(_0x59cfdb['h2']['y'])+parseInt(_0x59cfdb['h2']['h'])/0x2)),_0x44b11c[_0x5d12cd(0x190)](_0x5d12cd(0x181),_0x5d12cd(0x1cc)),_0x44b11c[_0x5d12cd(0x190)]('stroke-width',0x3),document[_0x5d12cd(0x1c6)]('sl')[_0x5d12cd(0x1da)](_0x44b11c);}function prep_goals(_0x23d93a){var _0x46dc36=_0x4812;if(!_0x23d93a['id'])err(_0x46dc36(0x1b3),'id');if(!_0x23d93a['type'])err(_0x46dc36(0x19d)+_0x23d93a['id'],_0x46dc36(0x19c));if(_0x23d93a[_0x46dc36(0x19c)]==_0x46dc36(0x162)){if(!_0x23d93a[_0x46dc36(0x1bc)])err(_0x46dc36(0x19d)+_0x23d93a['id'],_0x46dc36(0x1bc));if(!_0x23d93a[_0x46dc36(0x1ad)])err(_0x46dc36(0x19d)+_0x23d93a['id'],_0x46dc36(0x1ad));hosts[_0x46dc36(0x1bd)](_0xd7e11a=>{var _0x547035=_0x46dc36;if(_0xd7e11a['id']==_0x23d93a[_0x547035(0x1bc)])_0x23d93a['h1']=_0xd7e11a;}),hosts[_0x46dc36(0x1bd)](_0x1bfcd0=>{if(_0x1bfcd0['id']==_0x23d93a['id2'])_0x23d93a['h2']=_0x1bfcd0;});}}function next_eval(){var _0x498e02=_0x4812;if(g_eval_lvls[_0x498e02(0x191)]>=0x3)return _0x498e02(0x1a9);var _0x50971d;do{_0x50971d=Math[_0x498e02(0x19f)](0x6+0x4*Math[_0x498e02(0x168)]());}while(g_eval_lvls[_0x498e02(0x17f)](_0x50971d));return g_eval_lvls[_0x498e02(0x1b5)](_0x50971d),localStorage['setItem'](_0x498e02(0x1d2),JSON[_0x498e02(0x1af)](g_eval_lvls)),'level'+_0x50971d+_0x498e02(0x165);}function my_download(_0x3d31ee,_0x30225d){var _0x24d2cd=_0x4812,_0x58d40e=document[_0x24d2cd(0x160)]('a');_0x58d40e['setAttribute'](_0x24d2cd(0x15d),_0x24d2cd(0x17d)+encodeURIComponent(_0x30225d)),_0x58d40e['setAttribute'](_0x24d2cd(0x1c5),_0x3d31ee),_0x58d40e[_0x24d2cd(0x17e)][_0x24d2cd(0x1c3)]=_0x24d2cd(0x1c0),document[_0x24d2cd(0x1c2)][_0x24d2cd(0x1da)](_0x58d40e),_0x58d40e[_0x24d2cd(0x180)](),document[_0x24d2cd(0x1c2)][_0x24d2cd(0x1bf)](_0x58d40e);}function dl_config(){var _0x399595=_0x4812,_0x128d05={'routes':{},'ifs':{}};routes[_0x399595(0x1bd)](_0x2cda95=>{var _0x3c360a=_0x399595;_0x128d05[_0x3c360a(0x1c1)][_0x2cda95['rid']]={};if(_0x2cda95[_0x3c360a(0x1ab)]=='true')_0x128d05[_0x3c360a(0x1c1)][_0x2cda95[_0x3c360a(0x16f)]][_0x3c360a(0x1a7)]=document[_0x3c360a(0x1c6)](_0x3c360a(0x176)+_0x2cda95[_0x3c360a(0x16f)])[_0x3c360a(0x1d4)];if(_0x2cda95[_0x3c360a(0x1ae)]=='true')_0x128d05['routes'][_0x2cda95[_0x3c360a(0x16f)]]['gate']=document[_0x3c360a(0x1c6)]('gate_'+_0x2cda95[_0x3c360a(0x16f)])['value'];}),ifs[_0x399595(0x1bd)](_0x2b2234=>{var _0xafbf59=_0x399595;_0x128d05['ifs'][_0x2b2234['if']]={};if(_0x2b2234['ip_edit']==_0xafbf59(0x199))_0x128d05[_0xafbf59(0x15f)][_0x2b2234['if']]['ip']=document[_0xafbf59(0x1c6)](_0xafbf59(0x1ac)+_0x2b2234['if'])[_0xafbf59(0x1d4)];if(_0x2b2234[_0xafbf59(0x15e)]==_0xafbf59(0x199))_0x128d05[_0xafbf59(0x15f)][_0x2b2234['if']][_0xafbf59(0x1b8)]=document['getElementById']('mask_'+_0x2b2234['if'])[_0xafbf59(0x1d4)];}),my_download('level'+level+_0x399595(0x185),JSON[_0x399595(0x1af)](_0x128d05));}function show_goals(_0x46a4cd){var _0xc3aacb=_0x4812;g_sim_logs+=_0xc3aacb(0x1ba)+_0x46a4cd['id']+_0xc3aacb(0x188);var _0x5a14b8=document['getElementById'](_0xc3aacb(0x1a5));_0x5a14b8['innerHTML']+='Goal\x20'+_0x46a4cd['id']+_0xc3aacb(0x161);if(_0x46a4cd['type']==_0xc3aacb(0x162)){var _0x1fc7e=sim_goal(_0x46a4cd);_0x5a14b8[_0xc3aacb(0x1c9)]+=_0xc3aacb(0x173)+_0x46a4cd['h1'][_0xc3aacb(0x197)]+_0xc3aacb(0x1c4)+_0x46a4cd['h2'][_0xc3aacb(0x197)]+_0xc3aacb(0x196)+_0x1fc7e[_0xc3aacb(0x1b0)];}return _0x5a14b8['innerHTML']+=_0xc3aacb(0x1d1),_0x1fc7e[_0xc3aacb(0x1be)];}function all_goals(){var _0x1e4e6c=_0x4812;if(g_my_login!='')g_sim_logs='**\x20generated\x20for\x20login\x20\x22'+g_my_login+'\x22\x20**\x0a';else g_sim_logs=_0x1e4e6c(0x166)+g_eval_lvls[_0x1e4e6c(0x191)]+_0x1e4e6c(0x19e);document[_0x1e4e6c(0x1c6)]('goals_id')[_0x1e4e6c(0x1c9)]='<h2>Level\x20'+level+_0x1e4e6c(0x18a);var _0x24301b=0x0;goals['forEach'](_0x103b63=>_0x24301b+=show_goals(_0x103b63)),document[_0x1e4e6c(0x1c6)](_0x1e4e6c(0x1a5))[_0x1e4e6c(0x1c9)]+=_0x1e4e6c(0x184);if(_0x24301b==goals['length']){if(g_my_login!=''){if(level<0xa)document[_0x1e4e6c(0x1c6)](_0x1e4e6c(0x1a5))[_0x1e4e6c(0x1c9)]+=_0x1e4e6c(0x1bb)+(level+0x1)+'.html\x22;\x27>';else document['getElementById']('goals_id')[_0x1e4e6c(0x1c9)]+=_0x1e4e6c(0x17c);}else document[_0x1e4e6c(0x1c6)]('goals_id')['innerHTML']+=_0x1e4e6c(0x195);}document[_0x1e4e6c(0x1c6)](_0x1e4e6c(0x179))[_0x1e4e6c(0x1c9)]=g_sim_logs[_0x1e4e6c(0x175)](/\n/g,_0x1e4e6c(0x192));}function load_board(){var _0x3d67c9=_0x4812;if(!(g_my_login=localStorage[_0x3d67c9(0x18f)](_0x3d67c9(0x1d3))))g_my_login='';g_rand_prev=level+hash_login(g_my_login);if(g_my_login=='')g_eval_lvls=JSON[_0x3d67c9(0x1db)](localStorage['getItem'](_0x3d67c9(0x1d2)));var _0x530018=document[_0x3d67c9(0x1c6)](_0x3d67c9(0x1b2));hosts['forEach'](_0x1c500c=>show_host(_0x530018,_0x1c500c)),ifs[_0x3d67c9(0x1bd)](_0x202b2d=>show_ifs(_0x530018,_0x202b2d)),links[_0x3d67c9(0x1bd)](_0x1ec472=>draw_links(_0x530018,_0x1ec472)),goals[_0x3d67c9(0x1bd)](_0x1486fe=>prep_goals(_0x1486fe)),all_goals(),document[_0x3d67c9(0x1c6)](_0x3d67c9(0x179))[_0x3d67c9(0x1c9)]=_0x3d67c9(0x17a);}
+
+var g_sim_logs = '';
+var g_my_login = 0;
+var g_rand_prev;
+var g_rand_repl = [];
+var g_eval_lvls;
+
+
+function my_console_log(str)
+{
+//    console.log(str);
+}
+
+
+function hash_login(login)
+{
+    var seed = 0;
+    for (var i = 0; i < login.length; i ++)
+    {
+	if (i%2 == 0)
+	    seed += 973 * (login.charCodeAt(i)+i);
+	else
+	    seed += 5 * login.charCodeAt(i) * i;
+    }
+//    console.log("hash login : '"+login+"' -> "+seed);
+    return (seed);
+}
+
+
+function err(thetype, field)
+{
+    my_console_log("Fatal error in "+thetype+", on field "+field);
+    throw '';
+}
+
+
+function my_random(a, b)
+{
+    if (g_my_login == '')
+	return (Math.round(parseInt(a) + (parseInt(b)-parseInt(a))*Math.random()));
+    var prev = g_rand_prev;
+    prev ^= prev << 13;
+    prev ^= prev >> 17;
+    prev ^= prev << 5;
+    g_rand_prev = prev;
+    prev = (prev & 0x7FFFFFFF) % (parseInt(b)-parseInt(a)+1);
+    return (Math.round(parseInt(a) + prev));
+}
+
+function random_repl(str)
+{
+    var regex = /\[(\d+)-(\d+)\]([a-z])/g;
+    var res;
+    var str2 = str;
+    while (res = regex.exec(str))
+    {
+	my_console_log(res);
+	g_rand_repl[res[3]] = my_random(res[1], res[2]);
+	str2 = str2.replace(res[0], ""+g_rand_repl[res[3]]);
+	my_console_log(str2);
+    }
+    regex = /\[([a-z])\]/g;
+    while (res = regex.exec(str))
+    {
+	my_console_log(res);
+	if (g_rand_repl[res[1]] != null)
+	{
+	    str2 = str2.replace(res[0], ""+g_rand_repl[res[1]]);
+	    my_console_log(str2);
+	}
+	else
+	    return (null);
+    }
+
+    if (str2 == "default") return (str2);
+    // check if any non digital, non dot, non slash char, except previous line
+    regex = /[^\d\.\/]/g;
+    if (regex.exec(str2))
+	return (null);
+    
+    return (str2);
+}
+
+function show_host(root, h)
+{
+    if (!h['id']) err("hosts", "id");
+    if (!h['type']) err("hosts id "+h['id'], "type");
+    if (!h['name']) err("hosts id "+h['id'], "name");
+    if (!h['geometry']) err("hosts id "+h['id'], "geometry");
+    if (!h['img']) err("hosts id "+h['id'], "img");
+
+    var tab = h['geometry'].split(/[^0-9]+/);
+    if (tab.length != 4) err("hosts id "+h['id'], "geometry parsing");
+    h['w'] = parseInt(tab[0]);
+    h['h'] = parseInt(tab[1]);
+    h['x'] = parseInt(tab[2]);
+    h['y'] = parseInt(tab[3]);
+    
+    var newelem = document.createElement('div');
+    newelem.className = 'host_div';
+    newelem.style.position = "absolute";
+    newelem.style.width = h['w']+'px';
+    newelem.style.height = h['h']+'px';
+    newelem.style.top = h['y'] + 'px';
+    newelem.style.left = h['x'] + 'px';
+    newelem.style.backgroundImage = 'url(img/'+h['img']+')';
+    root.appendChild(newelem);
+
+    // label + routes
+    var tab = h['labelpos'].split(',');
+    if (tab.length != 2) err("host id "+h['id'], "labelpos parsing");
+    h['lx'] = parseInt(tab[0]);
+    h['ly'] = parseInt(tab[1]);
+
+    var newelem = document.createElement('div');
+    newelem.className = 'host_info_div';
+    newelem.style.position = "absolute";
+    newelem.style.top = (h['y']+h['ly'])+'px';
+    newelem.style.left = (h['x']+h['lx'])+'px';
+    var label = '<table><tr><td>'+h['type']+' '+h['id']+': <i>'+h['name']+'</id></td></tr>';
+    var str = '';
+    routes.forEach(r => {if (h['id'] == r['hid']) { str += '<tr><td>'+get_route_info(r)+'</td></tr>\n'; r['h'] = h;}});
+    if (str != '') label += '<tr><td>Routes :</td></tr>\n'+str;
+    label += '</table>';
+    newelem.innerHTML = label;
+    root.appendChild(newelem);
+    
+}
+
+
+
+function get_route_info(r)
+{
+    if (!r['rid']) err("route", "rid");
+    if (!r['hid']) err("route id "+r['rid'], "hid");
+    if (!r['route']) err("route id "+r['rid'], "route");
+    if (!r['route_edit']) err("route id "+r['rid'], "route_edit");
+    if (!r['gate']) err("route id "+r['rid'], "gate");
+    if (!r['gate_edit']) err("route id "+r['rid'], "gate_edit");
+
+    if ((r['route'] = random_repl(r['route'])) == null) err("route id "+r['rid'], "route ip random syntax");
+    if ((r['gate'] = random_repl(r['gate'])) == null) err("route id "+r['rid'], "gate random syntax");
+    
+    if (r['route_edit'] == 'true') route_active = ''; else route_active = 'disabled';
+    if (r['gate_edit'] == 'true') gate_active = ''; else gate_active = 'disabled';
+    var routestr = '<input size=15 type=text id=route_'+r['rid']+' value="'+r['route']+'" '+route_active+'> =&gt; <input size=15 type=text id=gate_'+r['rid']+' value="'+r['gate']+'" '+gate_active+'>';
+//    my_console_log("add label route : ##"+routestr);
+    return (routestr);
+}
+
+
+
+function show_ifs(root, itf)
+{
+    if (!itf['if']) err("ifs", "if");
+    if (!itf['hid']) err("ifs "+itf['if'], "hid");
+    if (!itf['ip']) err("ifs "+itf['if'], "ip");
+    if (!itf['mask']) err("ifs "+itf['if'], "mask");
+    if (!itf['ip_edit']) err("ifs "+itf['if'], "ip_edit");
+    if (!itf['mask_edit']) err("ifs "+itf['if'], "mask_edit");
+    if (!itf['type']) err("ifs "+itf['if'], "type");
+    if (!itf['pos']) err("ifs "+itf['if'], "pos");
+
+    if ((itf['ip'] = random_repl(itf['ip'])) == null) err("ifs "+itf['if'], "ip random syntax");
+    if ((itf['mask'] = random_repl(itf['mask'])) == null) err("ifs "+itf['if'], "mask random syntax");
+    
+    hosts.forEach(h => {if (itf['hid'] == h['id']) itf['h'] = h});
+
+    var tab = itf['pos'].split(',');
+    if (tab.length != 2) err("ifs id "+itf['if'], "pos parsing");
+    itf['dx'] = parseInt(tab[0]);
+    itf['dy'] = parseInt(tab[1]);
+
+    if (itf['type'] == 'std')
+    {
+	var newelem = document.createElement('div');
+	newelem.className = 'itf_div';
+	newelem.style.position = "absolute";
+	newelem.style.top = (itf['h']['y']+itf['dy'])+'px';
+	newelem.style.left = (itf['h']['x']+itf['dx'])+'px';
+	if (itf['ip_edit'] == 'true') ip_active = ''; else ip_active = 'disabled';
+	if (itf['mask_edit'] == 'true') mask_active = ''; else mask_active = 'disabled';
+	newelem.innerHTML = 'Interface '+itf['if']+'<br />IP : <input size=15 type=text id=ip_'+itf['if']+' value="'+itf['ip']+'" '+ip_active+'><br />Mask : <input size=15 type=text id=mask_'+itf['if']+' value="'+itf['mask']+'" '+mask_active+'>';
+	root.appendChild(newelem);
+    }
+}
+
+
+
+
+
+function draw_links(root, l)
+{
+    if (!l['if1'] || !l['if2']) err("links", "id");
+
+    ifs.forEach(i => {if (i['if'] == l['if1']) l['e1'] = i});
+    ifs.forEach(i => {if (i['if'] == l['if2']) l['e2'] = i});
+
+    hosts.forEach(h => {if (h['id'] == l['e1']['hid']) l['h1'] = h});
+    hosts.forEach(h => {if (h['id'] == l['e2']['hid']) l['h2'] = h});
+    
+    var aLine = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    aLine.setAttribute('id', 'link_'+l['if1']+'_'+l['if2']);
+    aLine.id = 'link_'+l['if1']+'_'+l['if2'];
+    aLine.setAttribute('x1', ""+(parseInt(l['h1']['x'])+parseInt(l['h1']['w'])/2));
+    aLine.setAttribute('y1', ""+(parseInt(l['h1']['y'])+parseInt(l['h1']['h'])/2));
+    aLine.setAttribute('x2', ""+(parseInt(l['h2']['x'])+parseInt(l['h2']['w'])/2));
+    aLine.setAttribute('y2', ""+(parseInt(l['h2']['y'])+parseInt(l['h2']['h'])/2));
+    aLine.setAttribute('stroke', "black");
+    aLine.setAttribute('stroke-width', 3);
+    (document.getElementById('sl')).appendChild(aLine);
+}
+
+
+function prep_goals(g)
+{
+    if (!g['id']) err("goals", "id");
+    if (!g['type']) err("goals "+g['id'], "type");
+    if (g['type'] == 'reach')
+    {
+	if (!g['id1']) err("goals "+g['id'], "id1");
+	if (!g['id2']) err("goals "+g['id'], "id2");
+	hosts.forEach(h => {if (h['id'] == g['id1']) g['h1'] = h});
+	hosts.forEach(h => {if (h['id'] == g['id2']) g['h2'] = h});
+    }
+    if (g['type'] == 'reach_if')
+    {
+	if (!g['if_id1']) err("goals "+g['id'], "if_id1");
+	if (!g['if_id2']) err("goals "+g['id'], "if_id2");
+	ifs.forEach(itf => {if (itf['if'] == g['if_id1']) { g['h1'] = itf['h']; g['if1'] = itf;}});
+	ifs.forEach(itf => {if (itf['if'] == g['if_id2']) { g['h2'] = itf['h']; g['if2'] = itf;}});
+    }
+}
+
+
+function next_eval()
+{
+    if (g_eval_lvls.length >= 3)
+	return ('end.html');
+    var lvl;
+    do {
+	lvl = Math.round(6 + 4*Math.random());
+    } while (g_eval_lvls.includes(lvl))
+    g_eval_lvls.push(lvl);
+    localStorage.setItem("g_my_eval", JSON.stringify(g_eval_lvls));
+    return ('level'+lvl+'.html');
+}
+
+
+function my_download(filename, text)
+{
+    var element = document.createElement('a');
+    element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+    element.setAttribute('download', filename);
+
+    element.style.display = 'none';
+    document.body.appendChild(element);
+
+    element.click();
+
+    document.body.removeChild(element);
+}
+
+function dl_config()
+{
+    var infos = { 'routes':{}, 'ifs':{} };
+    routes.forEach(elem => { infos['routes'][elem['rid']] = {};
+			     if (elem['route_edit'] == 'true') infos['routes'][elem['rid']]['route'] = document.getElementById('route_'+elem['rid']).value;
+			     if (elem['gate_edit'] == 'true') infos['routes'][elem['rid']]['gate'] = document.getElementById('gate_'+elem['rid']).value;
+			   });
+    ifs.forEach(elem => { infos['ifs'][elem['if']] = {};
+			  if (elem['ip_edit'] == 'true') infos['ifs'][elem['if']]['ip'] = document.getElementById('ip_'+elem['if']).value;
+			  if (elem['mask_edit'] == 'true') infos['ifs'][elem['if']]['mask'] = document.getElementById('mask_'+elem['if']).value;
+			});
+    my_download('level'+level+'.json', JSON.stringify(infos));
+}
+
+
+function show_goals(g)
+{
+    g_sim_logs += '******* Goal ID '+g['id']+' ********\n';
+    var div = document.getElementById("goals_id");
+    div.innerHTML += 'Goal '+g['id']+' : ';
+    if (g['type'] == 'reach')
+    {
+	var obj = sim_goal(g);
+	div.innerHTML += '<i>'+g['h1']['name']+'</i> need to communicate with <i>'+g['h2']['name']+'</i> - Status : '+obj.text;
+    }
+    if (g['type'] == 'reach_if')
+    {
+	var obj = sim_goal(g);
+	div.innerHTML += 'Interface <i>'+g['if1']['if']+'</i> need to communicate with interface <i>'+g['if2']['if']+'</i> - Status : '+obj.text;
+    }
+    div.innerHTML += '<br />\n';
+    return (obj.status);
+}
+
+
+function all_goals()
+{
+    if (g_my_login != '')
+	g_sim_logs = '** generated for login "'+g_my_login+'" **\n';
+    else
+	g_sim_logs = '** evaluation mode round '+g_eval_lvls.length+'**\n';
+    document.getElementById("goals_id").innerHTML = '<h2>Level '+level+' : </h2>\n';
+    var nb = 0;
+    goals.forEach(elem => nb += show_goals(elem));
+    document.getElementById("goals_id").innerHTML += '<input type=button value="Check again" onclick="all_goals();"> <input type=button value="Get my config" onclick="dl_config();">';
+    if (nb == goals.length)
+    {
+	if (g_my_login != '')
+	{
+	    if (level < 10)
+		document.getElementById("goals_id").innerHTML += " <input type=button value='Next level' onclick='window.location=\"level"+(level+1)+".html\";'>";
+	    else
+		document.getElementById("goals_id").innerHTML += " <input type=button value='Complete !' onclick='window.location=\"end.html\";'>";
+	}
+	else
+	{   // defense case
+	    document.getElementById("goals_id").innerHTML += " <input type=button value='Next' onclick='window.location=next_eval();'>";
+	}		
+    }
+    document.getElementById("logs_id").innerHTML = g_sim_logs.replace(/\n/g, '<br />');
+}
+
+
+function load_board()
+{
+    if (!(g_my_login = localStorage.getItem("g_my_login")))
+	g_my_login = ''; // will means evaluation & full random
+    g_rand_prev = level + hash_login(g_my_login); // initialize replayable pseudo random generator
+    if (g_my_login == '')
+	g_eval_lvls = JSON.parse(localStorage.getItem("g_my_eval"));
+    
+    var root = document.getElementById("root_id");
+
+    hosts.forEach(elem => show_host(root, elem));
+
+    ifs.forEach(elem => show_ifs(root, elem));
+    
+    links.forEach(elem => draw_links(root, elem));
+
+    goals.forEach(elem => prep_goals(elem));
+    all_goals();
+    // only for very first time : don't show any log
+    document.getElementById("logs_id").innerHTML = 'Logs will be displayed here';
+}

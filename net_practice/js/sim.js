@@ -1,1 +1,371 @@
-var _0x129c=['gate_','invalid\x20gate\x20ip\x20on\x20','\x20:\x20route\x20match\x20but\x20no\x20interface\x20for\x20gateway\x20','invalid\x20mask\x20on\x20interface\x20','on\x20','\x20:\x20destination\x20reached\x0a','length','KO\x20-\x20Multiple\x20destination\x20hosts\x20match\x20...\x20','hid','rid','false','gate_edit','push','if1','\x20\x20destination\x20reached\x20!','192.168.0.0/16','private_class_A','includes','__none__','\x20->\x20','invalid\x20route\x20on\x20host\x20','115854wbzeCc','type','ip_','pass\x20switch\x20','getElementById','\x20:\x20error\x20on\x20destination\x20ip\x20-\x20multiple\x20interface\x20match\x0a','reverse\x20way\x20:\x20','\x20:\x20route\x20match\x20','KO\x20-\x20No\x20forward\x20way,\x20try\x20again\x20...','\x20through\x20interface\x20','87ECCjpJ','\x20:\x20send\x20to\x20','\x20:\x20send\x20to\x20gateway\x20','\x20/\x20host\x20','route_','forEach','\x20:\x20packet\x20accepted\x0a','private_class_B','\x20input\x20itf\x20','\x20\x20\x20gate\x20ip\x20match\x20itf\x20','0.0.0.0','route_edit','0.0.0.0/0','317065ipccCy','internet','id2','\x20:\x20packet\x20not\x20for\x20me\x0a','\x20**\x20to\x20','loopback\x20address\x20detected\x20on\x20outside\x20interface\x0a','value','id1','179199voWCUM','4mnlamV','ip_edit',',\x20route\x20','2174fwtVnV','default','OK\x20-\x20Congratulations\x20!!','\x20:\x20destination\x20does\x20not\x20match\x20any\x20route\x0a','check\x20reach\x20:\x20','\x20:\x20destination\x20does\x20not\x20match\x20any\x20interface.\x20pass\x20through\x20routing\x20table\x0a','invalid\x20ip\x20on\x20interface\x20','private\x20subnets\x20not\x20routed\x20over\x20internet\x0a','\x20:\x20loop\x20detected\x0a','mask_edit','\x20against\x20all\x20interfaces','\x20\x20\x20match\x20itf\x20','true','6091YtpZPs','reach','626544hGbVtK','311wENHbc','forward\x20way\x20:\x20','invalid\x20ip\x20on\x20','mask_','private_class_C','585347evoidD','split','route'];var _0x42c611=_0x2121;function _0x2121(_0x2d44aa,_0x49f6d0){return _0x2121=function(_0x129cfd,_0x21219d){_0x129cfd=_0x129cfd-0xd0;var _0x4f2041=_0x129c[_0x129cfd];return _0x4f2041;},_0x2121(_0x2d44aa,_0x49f6d0);}(function(_0x59b509,_0x480041){var _0x7e057=_0x2121;while(!![]){try{var _0x3f85d1=-parseInt(_0x7e057(0xfe))*-parseInt(_0x7e057(0x10e))+-parseInt(_0x7e057(0x113))+-parseInt(_0x7e057(0xfb))*-parseInt(_0x7e057(0xfa))+-parseInt(_0x7e057(0xf2))+-parseInt(_0x7e057(0x10d))+parseInt(_0x7e057(0xdb))+-parseInt(_0x7e057(0xe5))*-parseInt(_0x7e057(0x10b));if(_0x3f85d1===_0x480041)break;else _0x59b509['push'](_0x59b509['shift']());}catch(_0x1a0523){_0x59b509['push'](_0x59b509['shift']());}}}(_0x129c,0x7c71d));var visited_host=[],private_subnets=[{'hid':_0x42c611(0xd8),'rid':_0x42c611(0xd6),'route':'10.0.0.0/8','gate':_0x42c611(0xef),'route_edit':'false','gate_edit':_0x42c611(0xd0),'h':{'type':'internet'}},{'hid':_0x42c611(0xd8),'rid':_0x42c611(0xec),'route':'172.16.0.0/12','gate':_0x42c611(0xef),'route_edit':'false','gate_edit':_0x42c611(0xd0),'h':{'type':_0x42c611(0xf3)}},{'hid':_0x42c611(0xd8),'rid':_0x42c611(0x112),'route':_0x42c611(0xd5),'gate':_0x42c611(0xef),'route_edit':_0x42c611(0xd0),'gate_edit':_0x42c611(0xd0),'h':{'type':_0x42c611(0xf3)}}];function ip_to_int(_0x3608d3){var _0xc0f04f=_0x42c611,_0x4b03e8=_0x3608d3['split']('.');if(_0x4b03e8[_0xc0f04f(0x11c)]!=0x4)return null;if(parseInt(_0x4b03e8[0x0])<0x0||parseInt(_0x4b03e8[0x0])>0xdf||parseInt(_0x4b03e8[0x1])<0x0||parseInt(_0x4b03e8[0x1])>0xff||parseInt(_0x4b03e8[0x2])<0x0||parseInt(_0x4b03e8[0x2])>0xff||parseInt(_0x4b03e8[0x3])<0x0||parseInt(_0x4b03e8[0x3])>0xff)return null;if(parseInt(_0x4b03e8[0x0])==0x7f)return g_sim_logs+=_0xc0f04f(0xf7),null;return(parseInt(_0x4b03e8[0x0])<<0x18|parseInt(_0x4b03e8[0x1])<<0x10|parseInt(_0x4b03e8[0x2])<<0x8|parseInt(_0x4b03e8[0x3]))>>>0x0;}function mask_to_int(_0x2261a3){var _0x2c004a=_0x42c611;if(_0x2261a3[_0x2c004a(0x11c)]==0x0)return null;if(_0x2261a3[0x0]=='/'){var _0x5ae8d1=parseInt(_0x2261a3['substring'](0x1));if(_0x5ae8d1<0x0||_0x5ae8d1>0x20)return null;return(0x1<<_0x5ae8d1)-0x1<<0x20-_0x5ae8d1;}var _0x323dfd=_0x2261a3[_0x2c004a(0x114)]('.');if(_0x323dfd[_0x2c004a(0x11c)]!=0x4)return null;if(parseInt(_0x323dfd[0x0])<0x0||parseInt(_0x323dfd[0x0])>0xff||parseInt(_0x323dfd[0x1])<0x0||parseInt(_0x323dfd[0x1])>0xff||parseInt(_0x323dfd[0x2])<0x0||parseInt(_0x323dfd[0x2])>0xff||parseInt(_0x323dfd[0x3])<0x0||parseInt(_0x323dfd[0x3])>0xff)return null;if(parseInt(_0x323dfd[0x0])!=0xff&&(parseInt(_0x323dfd[0x1])!=0x0||parseInt(_0x323dfd[0x2])!=0x0||parseInt(_0x323dfd[0x3])!=0x0))return null;if(parseInt(_0x323dfd[0x0])==0xff&&parseInt(_0x323dfd[0x1])!=0xff&&(parseInt(_0x323dfd[0x2])!=0x0||parseInt(_0x323dfd[0x3])!=0x0))return null;if(parseInt(_0x323dfd[0x0])==0xff&&parseInt(_0x323dfd[0x1])==0xff&&parseInt(_0x323dfd[0x2])!=0xff&&parseInt(_0x323dfd[0x3])!=0x0)return null;var _0x12d96a=(parseInt(_0x323dfd[0x0])<<0x18|parseInt(_0x323dfd[0x1])<<0x10|parseInt(_0x323dfd[0x2])<<0x8|parseInt(_0x323dfd[0x3]))>>>0x0;if(_0x12d96a==0x0)return 0x0;if((~_0x12d96a+0x1&~_0x12d96a)==0x0)return _0x12d96a;return null;}function get_if_mask_str(_0x3e87f9){var _0x2282b7=_0x42c611;if(_0x3e87f9[_0x2282b7(0x107)]==_0x2282b7(0x10a))return document[_0x2282b7(0xdf)](_0x2282b7(0x111)+_0x3e87f9['if'])[_0x2282b7(0xf8)];return _0x3e87f9['mask'];}function get_if_mask(_0x16e97c){return mask_to_int(get_if_mask_str(_0x16e97c));}function get_if_ip_str(_0x38e6e5){var _0x46841c=_0x42c611;if(_0x38e6e5[_0x46841c(0xfc)]==_0x46841c(0x10a))return document[_0x46841c(0xdf)](_0x46841c(0xdd)+_0x38e6e5['if'])[_0x46841c(0xf8)];return _0x38e6e5['ip'];}function get_if_ip(_0x526334){var _0x110bdb=ip_to_int(get_if_ip_str(_0x526334)),_0x582f52=get_if_mask(_0x526334);if((_0x110bdb&~_0x582f52)==0x0||(_0x110bdb&~_0x582f52)==~_0x582f52)return null;return _0x110bdb;}function get_route_route_str(_0x6d9894){var _0x33bd20=_0x42c611;if(_0x6d9894[_0x33bd20(0xf0)]==_0x33bd20(0x10a))return document[_0x33bd20(0xdf)](_0x33bd20(0xe9)+_0x6d9894[_0x33bd20(0x11f)])['value'];return _0x6d9894[_0x33bd20(0x115)];}function get_route_gate_str(_0x12c8ad){var _0x4d0894=_0x42c611;if(_0x12c8ad[_0x4d0894(0xd1)]==_0x4d0894(0x10a))return document[_0x4d0894(0xdf)](_0x4d0894(0x116)+_0x12c8ad['rid'])[_0x4d0894(0xf8)];return _0x12c8ad['gate'];}function get_route_gate(_0x7750e){return ip_to_int(get_route_gate_str(_0x7750e));}function ip_match_if(_0x2f26c8,_0x35e1e0){var _0x14d7e3=_0x42c611,_0x53f43b,_0x4c310a;if((_0x53f43b=get_if_ip(_0x35e1e0))===null)return g_sim_logs+=_0x14d7e3(0x104)+_0x35e1e0['if']+'\x0a',0x0;if((_0x4c310a=get_if_mask(_0x35e1e0))===null)return g_sim_logs+=_0x14d7e3(0x119)+_0x35e1e0['if']+'\x0a',0x0;if(_0x53f43b==_0x2f26c8)return g_sim_logs+='duplicate\x20IP\x0a',0x0;if((_0x53f43b&_0x4c310a)==(_0x2f26c8&_0x4c310a))return 0x1;return 0x0;}function ip_match_route(_0x4d8a95,_0x362613){var _0x2dbdc2=_0x42c611,_0x4b5083,_0x1878fd,_0x166e38;_0x4b5083=get_route_route_str(_0x362613);if(_0x4b5083==_0x2dbdc2(0xff))_0x4b5083=_0x2dbdc2(0xf1);if(_0x362613['h'][_0x2dbdc2(0xdc)]==_0x2dbdc2(0xf3)&&_0x4b5083=='0.0.0.0/0')return g_sim_logs+='invalid\x20default\x20route\x20on\x20internet\x20'+_0x362613[_0x2dbdc2(0x11e)]+'\x0a',0x0;var _0x3e11f6=_0x4b5083[_0x2dbdc2(0x114)]('/');if(_0x3e11f6['length']!=0x2)return g_sim_logs+=_0x2dbdc2(0xda)+_0x362613[_0x2dbdc2(0x11e)]+'\x0a',0x0;if((_0x1878fd=ip_to_int(_0x3e11f6[0x0]))===null)return g_sim_logs+=_0x2dbdc2(0xda)+_0x362613[_0x2dbdc2(0x11e)]+'\x0a',0x0;if((_0x166e38=mask_to_int('/'+_0x3e11f6[0x1]))===null)return g_sim_logs+=_0x2dbdc2(0xda)+_0x362613[_0x2dbdc2(0x11e)]+'\x0a',0x0;if((_0x1878fd&_0x166e38)==(_0x4d8a95&_0x166e38))return 0x1;return 0x0;}function rec_route(_0x51b08c,_0x124ee3,_0xcc9e71,_0x4d91ab){var _0x56d645=_0x42c611,_0x36d622,_0x93f560,_0x2ff3d7,_0x4ff0eb,_0x35d3aa,_0x3486bd;if(_0xcc9e71!=null)my_console_log(_0x56d645(0xf6)+_0x51b08c+'\x20/\x20host\x20'+_0x4d91ab['id']+_0x56d645(0xed)+_0xcc9e71['if']+'\x20/\x20to\x20match\x20local\x20target\x20'+_0x124ee3);else my_console_log(_0x56d645(0xf6)+_0x51b08c+_0x56d645(0xe8)+_0x4d91ab['id']);if(visited_host[_0x56d645(0xd7)](_0x4d91ab))return g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0x106),0x0;visited_host[_0x56d645(0xd2)](_0x4d91ab);if(_0x4d91ab[_0x56d645(0xdc)]=='switch')return g_sim_logs+=_0x56d645(0xde)+_0x4d91ab['id']+'\x0a',_0x4ff0eb=0x0,links['forEach'](_0x324ac7=>{var _0x252603=_0x56d645;if(_0x324ac7['e1']['hid']==_0x4d91ab['id'])_0x4ff0eb+=rec_route(_0x51b08c,_0x124ee3,_0x324ac7['e2'],_0x324ac7['h2']);else{if(_0x324ac7['e2'][_0x252603(0x11e)]==_0x4d91ab['id'])_0x4ff0eb+=rec_route(_0x51b08c,_0x124ee3,_0x324ac7['e1'],_0x324ac7['h1']);}}),_0x4ff0eb;if(_0xcc9e71!=null){if((_0x3486bd=get_if_ip(_0xcc9e71))===null)return g_sim_logs+='invalid\x20ip\x20on\x20'+_0xcc9e71['if']+'\x0a',0x0;if(_0x3486bd!=_0x124ee3)return g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0xf5),0x0;}g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0xeb);if(_0x4d91ab['type']==_0x56d645(0xf3)){if(ip_match_route(_0x51b08c,private_subnets[0x0])||ip_match_route(_0x51b08c,private_subnets[0x1])||ip_match_route(_0x51b08c,private_subnets[0x2]))return g_sim_logs+=_0x56d645(0x105),0x0;}if(_0xcc9e71!=null){_0x4ff0eb=0x0,ifs[_0x56d645(0xea)](_0x6ab0bd=>{var _0x1c2505=_0x56d645;if(_0x6ab0bd[_0x1c2505(0x11e)]==_0x4d91ab['id']&&(_0x3486bd=get_if_ip(_0x6ab0bd))!==null&&_0x51b08c===_0x3486bd)_0x4ff0eb+=0x1;});if(_0x4ff0eb>=0x1)return g_sim_logs+='on\x20'+_0x4d91ab['id']+_0x56d645(0x11b),my_console_log(_0x56d645(0xd4)),_0x4ff0eb;}my_console_log('\x20\x20check\x20'+_0x51b08c+_0x56d645(0x108)),_0x93f560=0x0,_0x4ff0eb=0x0;for(_0x36d622=0x0;_0x36d622<ifs[_0x56d645(0x11c)];_0x36d622++){ifs[_0x36d622][_0x56d645(0x11e)]==_0x4d91ab['id']&&(my_console_log('\x20\x20\x20chk\x20with\x20itf\x20'+ifs[_0x36d622]['if']),ip_match_if(_0x51b08c,ifs[_0x36d622])&&(my_console_log(_0x56d645(0x109)+ifs[_0x36d622]['if']),_0x93f560++,g_sim_logs+='on\x20'+_0x4d91ab['id']+_0x56d645(0xe6)+ifs[_0x36d622]['if']+'\x0a',links[_0x56d645(0xea)](_0x16fb3e=>{var _0x49c5c0=_0x56d645;if(_0x16fb3e[_0x49c5c0(0xd3)]==ifs[_0x36d622]['if'])_0x4ff0eb+=rec_route(_0x51b08c,_0x51b08c,_0x16fb3e['e2'],_0x16fb3e['h2']);else{if(_0x16fb3e['if2']==ifs[_0x36d622]['if'])_0x4ff0eb+=rec_route(_0x51b08c,_0x51b08c,_0x16fb3e['e1'],_0x16fb3e['h1']);}})));}if(_0x93f560>0x1)return g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0xe0),0x0;if(_0x93f560==0x1)return _0x4ff0eb;my_console_log('\x20\x20no\x20itf\x20for\x20ip\x20destination,\x20go\x20through\x20gate'),g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0x103),_0x4ff0eb=0x0,_0x2ff3d7=0x0;for(_0x35d3aa=0x0;_0x35d3aa<routes[_0x56d645(0x11c)];_0x35d3aa++){if(routes[_0x35d3aa][_0x56d645(0x11e)]==_0x4d91ab['id']){if(ip_match_route(_0x51b08c,routes[_0x35d3aa])){g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0xe2)+get_route_route_str(routes[_0x35d3aa])+'\x0a',_0x2ff3d7++;var _0x5d9be7=get_route_gate(routes[_0x35d3aa]);if(_0x5d9be7===null)return g_sim_logs+=_0x56d645(0x117)+_0x4d91ab['id']+_0x56d645(0xfd)+get_route_route_str(routes[_0x35d3aa])+'\x0a',0x0;_0x93f560=0x0;for(_0x36d622=0x0;_0x36d622<ifs['length'];_0x36d622++){ifs[_0x36d622]['hid']==_0x4d91ab['id']&&(ip_match_if(_0x5d9be7,ifs[_0x36d622])&&(my_console_log(_0x56d645(0xee)+ifs[_0x36d622]['if']),g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0xe7)+get_route_gate_str(routes[_0x35d3aa])+_0x56d645(0xe4)+ifs[_0x36d622]['if']+'\x0a',_0x93f560++,links[_0x56d645(0xea)](_0x44e58c=>{var _0x2777e0=_0x56d645;if(_0x44e58c[_0x2777e0(0xd3)]==ifs[_0x36d622]['if'])_0x4ff0eb+=rec_route(_0x51b08c,_0x5d9be7,_0x44e58c['e2'],_0x44e58c['h2']);else{if(_0x44e58c['if2']==ifs[_0x36d622]['if'])_0x4ff0eb+=rec_route(_0x51b08c,_0x5d9be7,_0x44e58c['e1'],_0x44e58c['h1']);}})));}if(_0x93f560>0x1)return g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+'\x20:\x20error\x20on\x20gate\x20ip\x20-\x20multiple\x20interface\x20match\x0a',0x0;}}if(_0x2ff3d7>0x0){if(_0x93f560==0x0)g_sim_logs+=_0x56d645(0x11a)+_0x4d91ab['id']+_0x56d645(0x118)+get_route_gate_str(routes[_0x35d3aa])+'\x0a';return _0x4ff0eb;}}return g_sim_logs+='on\x20'+_0x4d91ab['id']+_0x56d645(0x101),0x0;}function sim_reach(_0x1e7e50){var _0x25d4cc=_0x42c611;my_console_log('check\x20reach\x20:\x20'+_0x1e7e50[_0x25d4cc(0xf9)]+'\x20->\x20'+_0x1e7e50[_0x25d4cc(0xf4)]);var _0xe466bf=0x0,_0x23ec7a,_0x2c3d95;for(_0x23ec7a=0x0;_0x23ec7a<ifs[_0x25d4cc(0x11c)];_0x23ec7a++){if(_0x1e7e50[_0x25d4cc(0xf4)]==ifs[_0x23ec7a][_0x25d4cc(0x11e)]){visited_host=[];if((_0x2c3d95=get_if_ip(ifs[_0x23ec7a]))===null)g_sim_logs+='invalid\x20ip\x20on\x20'+ifs[_0x23ec7a]['if']+'\x0a';else g_sim_logs+=_0x25d4cc(0x10f)+_0x1e7e50[_0x25d4cc(0xf9)]+_0x25d4cc(0xd9)+_0x1e7e50[_0x25d4cc(0xf4)]+'\x20('+get_if_ip_str(ifs[_0x23ec7a])+')\x0a',_0xe466bf+=rec_route(_0x2c3d95,0x0,null,_0x1e7e50['h1']);if(_0xe466bf>0x0)break;}}if(_0xe466bf<=0x0)return{'text':_0x25d4cc(0xe3),'status':0x0};if(_0xe466bf>0x1)return{'text':_0x25d4cc(0x11d),'status':0x0};my_console_log(_0x25d4cc(0x102)+_0x1e7e50[_0x25d4cc(0xf4)]+'\x20->\x20'+_0x1e7e50['id1']),_0xe466bf=0x0;for(_0x23ec7a=0x0;_0x23ec7a<ifs[_0x25d4cc(0x11c)];_0x23ec7a++){if(_0x1e7e50[_0x25d4cc(0xf9)]==ifs[_0x23ec7a][_0x25d4cc(0x11e)]){visited_host=[];if((_0x2c3d95=get_if_ip(ifs[_0x23ec7a]))===null)g_sim_logs+=_0x25d4cc(0x110)+ifs[_0x23ec7a]['if']+'\x0a';else g_sim_logs+=_0x25d4cc(0xe1)+_0x1e7e50[_0x25d4cc(0xf4)]+_0x25d4cc(0xd9)+_0x1e7e50[_0x25d4cc(0xf9)]+'\x20('+get_if_ip_str(ifs[_0x23ec7a])+')\x0a',_0xe466bf+=rec_route(_0x2c3d95,0x0,null,_0x1e7e50['h2']);if(_0xe466bf>0x0)break;}}if(_0xe466bf<=0x0)return{'text':'KO\x20-\x20No\x20reverse\x20way,\x20try\x20again\x20...','status':0x0};if(_0xe466bf>0x1)return{'text':'KO\x20-\x20Multiple\x20origin\x20hosts\x20match\x20...\x20','status':0x0};return{'text':_0x25d4cc(0x100),'status':0x1};}function sim_goal(_0x3d5003){var _0x2eb792=_0x42c611;if(_0x3d5003[_0x2eb792(0xdc)]==_0x2eb792(0x10c))return sim_reach(_0x3d5003);}
+
+
+var visited_host = [];
+
+var private_subnets = [
+    {'hid':'__none__', 'rid':'private_class_A', 'route':'10.0.0.0/8', 'gate':'0.0.0.0', 'route_edit':'false', 'gate_edit':'false', 'h':{'type':'internet'}},
+    {'hid':'__none__', 'rid':'private_class_B', 'route':'172.16.0.0/12', 'gate':'0.0.0.0', 'route_edit':'false', 'gate_edit':'false', 'h':{'type':'internet'}},
+    {'hid':'__none__', 'rid':'private_class_C', 'route':'192.168.0.0/16', 'gate':'0.0.0.0', 'route_edit':'false', 'gate_edit':'false', 'h':{'type':'internet'}}
+];
+
+// simulate network
+
+
+function ip_to_int(s)
+{
+    var tab = s.split('.');
+    if (tab.length != 4) return (null);
+    if (parseInt(tab[0]) < 0 || parseInt(tab[0]) > 223 || parseInt(tab[1]) < 0 || parseInt(tab[1]) > 255 ||
+	parseInt(tab[2]) < 0 || parseInt(tab[2]) > 255 || parseInt(tab[3]) < 0 || parseInt(tab[3]) > 255) return (null);
+    if (parseInt(tab[0]) == 127) { g_sim_logs += "loopback address detected on outside interface\n"; return (null); }   // maybe not the best option to deal with 127/8 loopback addresses...
+    return ( ( (parseInt(tab[0]) << 24) | ((parseInt(tab[1])) << 16) | ((parseInt(tab[2])) << 8) | (parseInt(tab[3])) ) >>> 0);
+}
+
+function mask_to_int(s)
+{
+    if (s.length == 0) return (null);
+    if (s[0] == '/')
+    {
+	var cidr = parseInt(s.substring(1));
+	if (cidr < 0 || cidr > 32) return (null);
+	return ( ((1 << cidr)-1) << (32-cidr));
+    }
+    var tab = s.split('.');
+    if (tab.length != 4) return (null);
+    if (parseInt(tab[0]) < 0 || parseInt(tab[0]) > 255 || parseInt(tab[1]) < 0 || parseInt(tab[1]) > 255 ||
+	parseInt(tab[2]) < 0 || parseInt(tab[2]) > 255 || parseInt(tab[3]) < 0 || parseInt(tab[3]) > 255) return (null);
+    if (parseInt(tab[0]) != 255 && (parseInt(tab[1]) != 0 || parseInt(tab[2]) != 0 || parseInt(tab[3]) != 0)) return (null);
+    if (parseInt(tab[0]) == 255 && parseInt(tab[1]) != 255 && (parseInt(tab[2]) != 0 || parseInt(tab[3]) != 0)) return (null);
+    if (parseInt(tab[0]) == 255 && parseInt(tab[1]) == 255 && parseInt(tab[2]) != 255 && parseInt(tab[3]) != 0) return (null);
+    // magic trick to check if we have continuity of 1 then 0
+    var mask = ( ( (parseInt(tab[0]) << 24) | ((parseInt(tab[1])) << 16) | ((parseInt(tab[2])) << 8) | (parseInt(tab[3])) ) >>> 0);
+    if (mask == 0) return (0);
+    if ( ( ((~mask)+1) & (~mask) ) == 0)
+	return (mask);
+    return (null);
+}
+
+
+
+// mask on interface
+function get_if_mask_str(itf)
+{
+    if (itf['mask_edit'] == 'true')
+	return (document.getElementById('mask_'+itf['if']).value);
+    return (itf['mask']);
+}
+function get_if_mask(itf)
+{
+    return (mask_to_int(get_if_mask_str(itf)));
+}
+
+// ip on interface
+function get_if_ip_str(itf)
+{
+    if (itf['ip_edit'] == 'true')
+	return (document.getElementById('ip_'+itf['if']).value);
+    return (itf['ip']);
+}
+function get_if_ip(itf)
+{
+    var the_ip = ip_to_int(get_if_ip_str(itf));
+    // check if ip is not the network or broadcast address
+    var the_mask = get_if_mask(itf);
+    if ( (the_ip & (~the_mask)) == 0 ||
+	 (the_ip & (~the_mask)) == (~the_mask) )
+	return (null);
+    return (the_ip);
+}
+
+
+// route in routes
+function get_route_route_str(r)
+{
+    if (r['route_edit'] == 'true')
+	return (document.getElementById('route_'+r['rid']).value);
+    return (r['route']);
+}
+
+// gate in routes
+function get_route_gate_str(r)
+{
+    if (r['gate_edit'] == 'true')
+	return (document.getElementById('gate_'+r['rid']).value);
+    return (r['gate']);
+}
+function get_route_gate(r)
+{
+    return (ip_to_int(get_route_gate_str(r)));
+}
+
+
+
+function ip_match_if(ip, itf)
+{
+    var iip, imask;
+    if ((iip = get_if_ip(itf)) === null) { g_sim_logs += 'invalid ip on interface '+itf['if']+'\n'; return (0); }
+    if ((imask = get_if_mask(itf)) === null) { g_sim_logs += 'invalid mask on interface '+itf['if']+'\n'; return (0); }
+//    my_console_log("## "+iip+" & "+imask+" == "+ip+" & "+imask);
+    if (iip == ip) { g_sim_logs += "duplicate IP\n"; return (0); } // ip_match_if is called only on output, not on arrival
+    if ((iip & imask) == (ip & imask))
+    {
+	// if ip match the interface network, check that the ip is not the network addr or broadcast ?
+	return (1);
+    }
+    return (0);
+}
+
+
+function ip_match_route(ip, r)
+{
+    var str, rip, rmask;
+    str = get_route_route_str(r);
+    if (str == 'default') str = '0.0.0.0/0';
+//    my_console_log("ip_match_route route :"+JSON.stringify(r));
+    if (r['h']['type'] == "internet" && str == '0.0.0.0/0')
+    { g_sim_logs += 'invalid default route on internet '+r['hid']+'\n'; return (0); }
+    var tab = str.split('/');
+//    my_console_log("ip_match_route check : "+str+" againt ip "+ip);
+    if (tab.length != 2)
+    { g_sim_logs += 'invalid route on host '+r['hid']+'\n'; return (0); }
+    if ((rip = ip_to_int(tab[0])) === null)
+    { g_sim_logs += 'invalid route on host '+r['hid']+'\n'; return (0); }
+    if ((rmask = mask_to_int('/'+tab[1])) === null)
+    { g_sim_logs += 'invalid route on host '+r['hid']+'\n'; return (0); }
+    if ((rip & rmask) == (ip & rmask)) return (1);
+    return (0);
+}
+
+
+
+
+function rec_route(ip_dest, local_target, input_itf, h)
+{
+    var i, nbif, nb_routes, ret, j;
+    var itf_ip;
+    
+    if (input_itf != null)
+	my_console_log(" ** to "+ip_dest+" / host "+h['id']+" input itf "+input_itf['if']+" / to match local target "+local_target);
+    else
+	my_console_log(" ** to "+ip_dest+" / host "+h['id']);
+
+    // loop detection here
+    if (visited_host.includes(h)) { g_sim_logs += "on "+h['id']+' : loop detected\n'; return (0); }
+    visited_host.push(h);
+
+    // if switch : rec_route to all links
+    if (h['type'] == 'switch')
+    {
+	g_sim_logs += 'pass switch '+h['id']+'\n';
+	ret = 0;
+	links.forEach(l => {if (l['e1']['hid'] == h['id']) ret += rec_route(ip_dest, local_target, l['e2'], l['h2']);
+			    else if (l['e2']['hid'] == h['id']) ret += rec_route(ip_dest, local_target, l['e1'], l['h1'])});
+	return (ret);
+    }
+    
+    // on a host, is my current gate ip == the ip of the input itf ?
+    if (input_itf != null)
+    {
+	if ((itf_ip = get_if_ip(input_itf)) === null) { g_sim_logs += 'invalid ip on '+input_itf['if']+'\n'; return (0); }
+	if (itf_ip != local_target) { g_sim_logs += 'on '+h['id']+' : packet not for me\n'; return (0); }
+    }
+
+    // accepted on host
+    g_sim_logs += 'on '+h['id']+' : packet accepted\n';
+
+    // internet does no route private addresses, so "internet interface" reject private subnets
+    if (h['type'] == 'internet')
+    {
+	if (ip_match_route(ip_dest, private_subnets[0]) || ip_match_route(ip_dest, private_subnets[1]) || ip_match_route(ip_dest, private_subnets[2]))
+	{ g_sim_logs += 'private subnets not routed over internet\n'; return (0); }
+    }
+    
+   // arrived ?   check not only input itf, in case another itf is the target;  do not check if input_itf is null (departure host)
+    if (input_itf != null)
+    {
+	ret = 0;
+	ifs.forEach(itf => {if (itf['hid'] == h['id'] && (itf_ip = get_if_ip(itf)) !== null && ip_dest === itf_ip) ret += 1;});
+	if (ret >= 1) { g_sim_logs += 'on '+h['id']+' : destination reached\n'; my_console_log("  destination reached !"); return (ret); } // keep multiple : means that 2 interfaces have the same ip
+    }
+
+    // ip_dest match an interface ?
+    my_console_log("  check "+ip_dest+" against all interfaces");
+    nbif = 0; ret = 0;
+    for (i = 0; i < ifs.length; i++)
+    {
+	if (ifs[i]['hid'] == h['id'])
+	{
+	    my_console_log("   chk with itf "+ifs[i]['if']);
+	    if (ip_match_if(ip_dest, ifs[i]))
+	    {
+		my_console_log("   match itf "+ifs[i]['if']);
+		nbif ++;
+		g_sim_logs += 'on '+h['id']+' : send to '+ifs[i]['if']+'\n';
+		links.forEach(l => {if (l['if1'] == ifs[i]['if']) ret += rec_route(ip_dest, ip_dest, l['e2'], l['h2']);
+				    else if (l['if2'] == ifs[i]['if']) ret += rec_route(ip_dest, ip_dest, l['e1'], l['h1'])});
+	    }
+	}
+    }
+     // force fail if multiple ifs on same subnet
+    if (nbif > 1) { g_sim_logs += 'on '+h['id']+' : error on destination ip - multiple interface match\n'; return (0); }
+    if (nbif == 1) return (ret);
+
+    // else nbif == 0, no interface match, explore routes
+    my_console_log("  no itf for ip destination, go through gate");
+    g_sim_logs += 'on '+h['id']+' : destination does not match any interface. pass through routing table\n';
+
+    ret = 0;
+    nb_routes = 0;
+    for (j = 0; j < routes.length; j++)
+    {
+	if (routes[j]['hid'] == h['id'])
+	{
+	    if (ip_match_route(ip_dest, routes[j]))
+	    {
+		g_sim_logs += 'on '+h['id']+' : route match '+get_route_route_str(routes[j])+'\n';
+		nb_routes ++;
+		var ip_gate = get_route_gate(routes[j]);
+		if (ip_gate === null) { g_sim_logs += "invalid gate ip on "+h['id']+", route "+get_route_route_str(routes[j])+"\n"; return (0);}
+		nbif = 0;
+		for (i = 0; i < ifs.length; i++)
+		{
+		    if (ifs[i]['hid'] == h['id'])
+		    {
+			if (ip_match_if(ip_gate, ifs[i]))
+			{
+			    my_console_log("   gate ip match itf "+ifs[i]['if']);
+			    g_sim_logs += 'on '+h['id']+' : send to gateway '+get_route_gate_str(routes[j])+' through interface '+ifs[i]['if']+'\n';
+			    nbif ++;
+			    links.forEach(l => {if (l['if1'] == ifs[i]['if']) ret += rec_route(ip_dest, ip_gate, l['e2'], l['h2']);
+						else if (l['if2'] == ifs[i]['if']) ret += rec_route(ip_dest, ip_gate, l['e1'], l['h1'])});
+			}
+		    }
+		}
+		if (nbif > 1) { g_sim_logs += 'on '+h['id']+' : error on gate ip - multiple interface match\n'; return (0); }
+	    }
+	}
+	if (nb_routes > 0)  // only first route is explored.
+	{
+	    if (nbif == 0) g_sim_logs += 'on '+h['id']+' : route match but no interface for gateway '+get_route_gate_str(routes[j])+'\n';
+	    return (ret);
+	}
+    }
+    // no match, fail
+    g_sim_logs += 'on '+h['id']+' : destination does not match any route\n';
+    return (0);
+}
+
+
+
+function sim_reach(g)
+{
+    my_console_log("check reach : "+g['id1']+" -> "+g['id2']);
+    var ret = 0;
+    var i;
+    var itf_ip;
+    for (i = 0; i < ifs.length; i++)
+    {
+	if (g['id2'] == ifs[i]['hid'])
+	{
+	    visited_host = [];
+	    if ((itf_ip = get_if_ip(ifs[i])) === null)
+		g_sim_logs += "invalid ip on "+ifs[i]['if']+"\n";
+	    else
+	    {
+		g_sim_logs +="forward way : "+g['id1']+" -> "+g['id2']+" ("+get_if_ip_str(ifs[i])+")\n";
+		ret += rec_route(itf_ip, 0, null, g['h1']);
+	    }
+	    if (ret > 0)
+		break;     // if one interface matches, that's enough - if ret > 1 it's because another host matches
+	}
+    }
+    if (ret <= 0) return ({text:'KO - No forward way, try again ...', status:0});
+    if (ret > 1) return ({text:'KO - Multiple destination hosts match ... ', status:0});
+    
+    // now reverse way
+
+    my_console_log("check reach : "+g['id2']+" -> "+g['id1']);
+    ret = 0;
+    for (i = 0; i < ifs.length; i++)
+    {
+	if (g['id1'] == ifs[i]['hid'])
+	{
+	    visited_host = [];
+	    if ((itf_ip = get_if_ip(ifs[i])) === null)
+                g_sim_logs += "invalid ip on "+ifs[i]['if']+"\n";
+            else
+            {
+                g_sim_logs +="reverse way : "+g['id2']+" -> "+g['id1']+" ("+get_if_ip_str(ifs[i])+")\n";
+                ret += rec_route(itf_ip, 0, null, g['h2']);
+            }
+            if (ret > 0)
+                break;     // if one interface matches, that's enough - if ret > 1 it's because another host matches
+	}
+    }
+    if (ret <= 0) return ({text:'KO - No reverse way, try again ...', status:0});
+    if (ret > 1) return ({text:'KO - Multiple origin hosts match ... ', status:0});
+    
+    return ({text:'OK - Congratulations !!', status:1});
+}
+
+
+function sim_reach_if(g)
+{
+    my_console_log("check reach interface : "+g['if_id1']+" -> "+g['if_id2']);
+    var ret = 0;
+    var i;
+    var itf_ip;
+    for (i = 0; i < ifs.length; i++)
+    {
+	if (g['if_id2'] == ifs[i]['if'])
+	{
+	    visited_host = [];
+	    if ((itf_ip = get_if_ip(ifs[i])) === null)
+		g_sim_logs += "invalid ip on "+ifs[i]['if']+"\n";
+	    else
+	    {
+		g_sim_logs +="forward way : "+g['if_id1']+" -> "+g['if_id2']+" ("+get_if_ip_str(ifs[i])+")\n";
+		ret += rec_route(itf_ip, 0, null, g['h1']);
+	    }
+	    if (ret > 0)
+		break;     // if one interface matches, that's enough - if ret > 1 it's because another host matches
+	}
+    }
+    if (ret <= 0) return ({text:'KO - No forward way, try again ...', status:0});
+    if (ret > 1) return ({text:'KO - Multiple destination hosts match ... ', status:0});
+    
+    // now reverse way
+
+    my_console_log("check reach interface : "+g['if_id2']+" -> "+g['if_id1']);
+    ret = 0;
+    for (i = 0; i < ifs.length; i++)
+    {
+	if (g['if_id1'] == ifs[i]['if'])
+	{
+	    visited_host = [];
+	    if ((itf_ip = get_if_ip(ifs[i])) === null)
+                g_sim_logs += "invalid ip on "+ifs[i]['if']+"\n";
+            else
+            {
+                g_sim_logs +="reverse way : "+g['if_id2']+" -> "+g['if_id1']+" ("+get_if_ip_str(ifs[i])+")\n";
+                ret += rec_route(itf_ip, 0, null, g['h2']);
+            }
+            if (ret > 0)
+                break;     // if one interface matches, that's enough - if ret > 1 it's because another host matches
+	}
+    }
+    if (ret <= 0) return ({text:'KO - No reverse way, try again ...', status:0});
+    if (ret > 1) return ({text:'KO - Multiple origin hosts match ... ', status:0});
+    
+    return ({text:'OK - Congratulations !!', status:1});
+}
+
+
+
+function sim_goal(g)
+{
+    if (g['type'] == 'reach')
+	return (sim_reach(g));
+    if (g['type'] == 'reach_if')
+	return (sim_reach_if(g));
+}
